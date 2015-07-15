@@ -1,0 +1,31 @@
+I, [2015-07-10T14:59:48.198566 #9231]  INFO -- Kitchen: -----> Starting Kitchen (v1.4.1)
+E, [2015-07-10T14:59:48.200944 #9231] ERROR -- Kitchen: ------Exception-------
+E, [2015-07-10T14:59:48.200993 #9231] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2015-07-10T14:59:48.201017 #9231] ERROR -- Kitchen: Message: Kitchen YAML file /home/marcelo/chef-repo/.kitchen.yml does not exist.
+E, [2015-07-10T14:59:48.201037 #9231] ERROR -- Kitchen: ------Backtrace-------
+E, [2015-07-10T14:59:48.201054 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/gems/test-kitchen-1.4.1/lib/kitchen/loader/yaml.rb:74:in `read'
+E, [2015-07-10T14:59:48.201072 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/gems/test-kitchen-1.4.1/lib/kitchen/config.rb:145:in `data'
+E, [2015-07-10T14:59:48.201090 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/gems/test-kitchen-1.4.1/lib/kitchen/config.rb:124:in `suites'
+E, [2015-07-10T14:59:48.201107 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/gems/test-kitchen-1.4.1/lib/kitchen/config.rb:175:in `filter_instances'
+E, [2015-07-10T14:59:48.201124 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/gems/test-kitchen-1.4.1/lib/kitchen/config.rb:134:in `build_instances'
+E, [2015-07-10T14:59:48.201140 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/gems/test-kitchen-1.4.1/lib/kitchen/config.rb:110:in `instances'
+E, [2015-07-10T14:59:48.201156 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/gems/test-kitchen-1.4.1/lib/kitchen/command.rb:115:in `filtered_instances'
+E, [2015-07-10T14:59:48.201173 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/gems/test-kitchen-1.4.1/lib/kitchen/command.rb:145:in `parse_subcommand'
+E, [2015-07-10T14:59:48.201190 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/gems/test-kitchen-1.4.1/lib/kitchen/command/action.rb:38:in `block in call'
+E, [2015-07-10T14:59:48.201206 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/benchmark.rb:288:in `measure'
+E, [2015-07-10T14:59:48.201236 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/gems/test-kitchen-1.4.1/lib/kitchen/command/action.rb:37:in `call'
+E, [2015-07-10T14:59:48.201247 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/gems/test-kitchen-1.4.1/lib/kitchen/cli.rb:56:in `perform'
+E, [2015-07-10T14:59:48.201257 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/gems/test-kitchen-1.4.1/lib/kitchen/cli.rb:171:in `block (2 levels) in <class:CLI>'
+E, [2015-07-10T14:59:48.201267 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2015-07-10T14:59:48.201277 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2015-07-10T14:59:48.201287 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/gems/test-kitchen-1.4.1/lib/kitchen/cli.rb:308:in `invoke_task'
+E, [2015-07-10T14:59:48.201308 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2015-07-10T14:59:48.201341 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2015-07-10T14:59:48.201363 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/gems/test-kitchen-1.4.1/bin/kitchen:13:in `block in <top (required)>'
+E, [2015-07-10T14:59:48.201373 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/gems/test-kitchen-1.4.1/lib/kitchen/errors.rb:154:in `with_friendly_errors'
+E, [2015-07-10T14:59:48.201384 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/gems/test-kitchen-1.4.1/bin/kitchen:13:in `<top (required)>'
+E, [2015-07-10T14:59:48.201394 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/bin/kitchen:23:in `load'
+E, [2015-07-10T14:59:48.201404 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/bin/kitchen:23:in `<main>'
+E, [2015-07-10T14:59:48.201414 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'
+E, [2015-07-10T14:59:48.201424 #9231] ERROR -- Kitchen: /home/marcelo/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `<main>'
+E, [2015-07-10T14:59:48.201439 #9231] ERROR -- Kitchen: ----------------------
